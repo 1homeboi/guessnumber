@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "lesson-32"
+version = "0.1.0"
+description = ""
+authors = ["Allen8Kane <allen8kane@gmail.com>"]
+readme = "README.md"
+packages = [{include = "lesson_32"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aiogram = "^2.25.1"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
